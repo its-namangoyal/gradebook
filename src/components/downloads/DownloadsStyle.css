@@ -1,0 +1,30 @@
+.card {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#close-btn {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    margin: 20px;
+    color: #023047;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#close-btn {
+    color: none;
+}
+
+#close-btn:hover {
+    transform: scale(1.3);
+}
